@@ -1,0 +1,22 @@
+method
+------
+get
+======
+1.less secure
+2.it ia usedd for small forlms
+3.URL length limit aavailable(2048 char)
+4.file upload is not possible
+
+post
+=====
+1.more secure
+2.used for big form
+3.no length limit available
+4.file upload is possible
+
+
+
+enctype
+=======
+1.text-plain
+2.multipart/form-data

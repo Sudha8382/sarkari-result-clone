@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>SarkariResult.com</title>
+    <link rel="icon" href="logo-new.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer{
+    min-height: 1200px;
+    width: 1000px;
+    margin: 0px auto;
+}
+.header{
+    height: 180px;
+    width: 1000px;
+    background-color: #ab183d;
+}
+.logo{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    float: left;
+}
+.title{
+    height: 180px;
+    width: 800px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.title .heading{
+    font-weight: 700;
+    padding-top: 40px;
+    font-size: 42px;
+    margin: 0px;
+}
+.navigation-bar{
+    height: 50px;
+    width: 1000px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.navigation-bar ul{
+margin: 0px;
+padding: 0px;
+list-style-type:none;
+}
+.navigation-bar ul a{
+    text-decoration: none;
+}
+.navigation-bar ul li{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 50px;
+    width: 125px;
+    border-right: 1px solid white;
+    float: left;
+    text-transform: capitalize;
+}
+.latest-news{
+    height: 25px;
+    width: 1000px;
+    line-height: 25px;
+    text-align: center;
+}
+.latest-news a{
+    color:#0000ee;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.path{
+    height: 25px;
+    width: 1000px;
+    color: red;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.web-news{
+    height: 25px;
+    width: 1000px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.web-news a{
+    text-decoration: underline dotted navy;
+    color: #0000ee;
+}
+.box{
+    height: 160px;
+    width: 1000px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.box-top,.box-bottom{
+    height: 80px;
+    width: 1000px;
+}
+.box-top1{
+    height: 80px;
+    width: 250px;
+    border: 3px solid white;
+    float: left;
+    color: white;
+    font-size: 25PX;
+    font-weight: bold;
+    text-align: center;
+    transform:translateY(-10px);
+}
+.red{
+    background-color: #fb0303;
+}
+.blue{
+    background-color: #0404b4;
+}
+.mehandi{
+    background-color:#848808 ;
+}
+.orange{
+    background-color: #fb5e03;
+}
+.maroon{
+    background-color: #8c0101;
+}
+.skyblue{
+    background-color:#0080ff;
+}
+.pink{
+    background-color: #ff00bf;
+}
+.green{
+    background-color:#0b610b ;
+}
+.container{
+    height: 1000px;
+    width: 1000px;
+
+}
+.left,.right,.middle{
+    min-height: 500px;
+    width: 300px;
+    border: 2px solid #ab183d;
+    float: left;
+}
+.left-header{
+    height: 45px;
+    width: 300px;
+    background-color:#ab183d ;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.left-body{
+    height: 800px;
+    width: 300px;
+}
+.left-body ul li {
+    color: #0404b4;
+    margin-bottom: 30px;
+    font-size: 15px;
+    
+}
+.left-body ul li a{
+    color: #0404b4;
+}
+.full-boxex{
+    min-height: 600px;
+    width: 1000px;
+    border: 1px solid #ab183d;
+}
+.full-box1{
+    min-height: 300px;
+    width: 1000px;
+}
+.body-header{
+    height: 45px;
+    width: 1000px;
+    color: white;
+    background-color: #ab183d;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+}
+.box-body{
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+
+}
+.footer{
+    min-height: 600px;
+    width: 1000px;
+    margin-top: 150px;
+}
+.footer-div{
+    min-height: 600px;
+    width: 250px;
+    float: left;
+}
+.f-header{
+    height: 45px;
+    width: 240px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.f-bottom{
+    min-height: 555px;
+    width: 240px;
+    margin-right: 10px;
+  
+}
+</style>
+</head>
+<body>
+    <div class="outer">
+        <div class="header">
+            <div class="logo">
+                <img src="logo-new.png" alt="path error">
+            </div>
+            <div class="title">
+                <div class="heading">SARKARI RESULT</div>
+                <div class="sub-heading" style="text-decoration: underline dotted white;"> <i class="fa fa-search"></i>WWW.SARKARIRESULT.COM</div>
+            </div>
+        </div>
+        <div class="navigation-bar">
+            <ul>
+            <a href=""><li>HOME</li></a>
+            <a href=""><li>latest job</li></a>
+            <a href=""><li>results</li></a>
+            <a href=""><li>admit card</li></a>
+            <a href=""><li>answer key</li></a>
+            <a href=""><li>syllabus</li></a>
+            <a href=""><li>search</li></a>
+            <a href=""><li>contact us</li></a>
+            </ul>
+            </div>       
+                <div class="web-news">
+                    <a href=""> <i class="fa fa-search"></i> Sarkari Result : SarkariResult.Com</a>Sarkari Naukri Latest Jobs Online Form at
+                    <a href=""> <i class="fa fa-search"></i>Sarkari Results</a>2024
+                </div>
+                <p class="path">Welcome to No. 1 Education Portal Sarkari Result 2024</p>
+
+            <div class="latest-news">
+                <a href="#"> Result Android Apps </a>|| 
+                <a href="#">Sarkari Result Youtube Channel</a> || 
+                <a href="#">Sarkari Result Apple / IOS Apps||</a>
+                    <a href="#"> Follow Instagram</a>
+            </div>
+            <div class="latest-news">
+                <marquee behavior="alternate" onmouseover="stop()" onmouseout="start()">
+                <a href="#">CCC Exam Admit Card July 2024</a> || 
+                <a href="#">RBI Officers Grade B Online Form 2024</a> | | 
+                    <a href="#">UPITI Admission Online Form 2024</a>
+                </marquee>
+            </div>
+            <div class="latest-news">
+                <marquee behavior="alternate" onmouseover="stop()" onmouseout="start()">
+                <a href="#">UKPSC APS Online Form 2024 </a>|| 
+                <a href="#">JSSC Intermediate Level Online Form 2024</a> || 
+                <a href="#">NVS Class 6th Admissions Online Form 2025</a>
+            </marquee>
+            </div>
+            <div class="latest-news">
+                <marquee behavior="alternate" onmouseover="stop()" onmouseout="start()">
+                <a  href="#" style="color: #551a8b;">SSC CHSL Answer Key Paper I 2024</a> || 
+                <a href="#">Bihar STET Answer Key 2024</a> ||
+                <a  style="color: #551a8b;" href="#">RRC CR Apprentices Online Form 2024</a>
+            </marquee>
+            </div>
+            <div class="box">
+                <div class="box-top">
+                    <div class="box-top1 mehandi">IBPS Clerk
+                         Apply Online</div>
+                    <div class="box-top1 blue">BSPHCL Vacancy
+                        Apply Online</div>
+                    <div class="box-top1 orange">Bihar STET 2024
+                        Answer Key</div>
+                    <div class="box-top1 maroon">SSC CGL 2024
+                    Apply Online</div>
+                </div>
+                <div class="box-bottom">
+                    <div class="box-top1 red" >SSC CHSL 2024
+                        Answer Key</div>
+                    <div class="box-top1 green">SSC MTS 2024
+                        Apply Online</div>
+                    <div class="box-top1 pink">UPITI Admissions
+                        Apply Online</div>
+                    <div class="box-top1 skyblue">India Post GDS
+                        Apply Online</div>
+                   
+                </div>
+            </div>
+            <div class="container">
+                <div class="left"style="margin-right: 50px;">
+                    <div class="left-header">Result</div>
+                    <div class="left-body">
+                        <ul>
+                            <li><a href="">UP CPET 2024 Entrance Exam Result</a></li>
+                            <li><a href="">Bihar Police BPSSC SI Prohibition Final Result 2024</a></li>
+                            <li><a href="">NEET UG 2024 District / Center Wise Result </a></li>
+                            <li><a href="">SBI Circle Based Officer CBO 2023 Final Result</a></li>
+                            <li><a href="">Chandigarh Police Constable IT Final Merit List 2024</a></li>
+                              <li><a href="">UPSC IAF / IFS Pre Result 2024 (Name Wise)</a></li>
+                            <li><a href="">UPUMS Nursing Officer Result 2024</a></li>
+                            <li><a href="">Bihar DELED First Selection List 2024</a></li>
+                            <li><a href="">DDU Gorakhpur University Entrance Exam Result 2024</a></li>
+                            <li><a href="">New India Assurance NIACL Assistant Final Result 2024</a></li>
+                            <li><a href="">IERT 2024 Entrance Exam Result</a></li>
+                            <li><a href="">Bihar SSC Stenographer 2023 Final Result</a></li>
+                            <li><a href="">Rajasthan High Court Civil Judge Pre Result 2024</a></li>
+                            <li><a href="">UPPSC Medical Officer Result 2024</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="middle" style="margin-right:50px;": 50px;>
+                    <div class="left-header">Admit Card</div>
+                    <div class="left-body">
+                        <ul>
+                            <li><a href="">IBPS RRB 13th PET Admit Card 2024</a></li>
+                            <li><a href="">NTA CSIR UGC NET Admit Card 2024</a></li>
+                            <li><a href="">BPSC Block Horticulture Officer BHO Exam Date 2024</a></li>
+                            <li><a href="">SEBI Assistant Manager Phase I Admit Card 2024</a></li>
+                              <li><a href="">RSMSSB Junior Assistant / Clerk Exam Date 2024</a></li>
+                            <li><a href="">Jharkhand JSSC Matric Level Admit Card 2024</a></li>
+                            <li><a href="">NEET PG 2024 Choose Exam City</a></li>
+                            <li><a href="">Airforce Agniveervayu Intake 01/2025 Phase II Admit Card</a></li>
+                            <li><a href="">NIELIT CCC Exam Admit Card July 2024</a></li>
+                            <li><a href="">NTA CUET RE Exam Admit Card (Affected Candidate)</a></li>
+                            <li><a href="">RSMSSB Junior Instructor Exam Date 2024</a></li>
+                            <li><a href="">CSBC Bihar Police Constable 2023 Admit Card</a></li>
+                            <li><a href="">HSSC Constable PMT Exam Admit Card 2024</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right" >
+                    <div class="left-header">Latest Jobs</div>
+                    <div class="left-body">
+                        <ul>
+                            <li><a href="">Southern Railway Apprentices Online Form 2024</a></li>
+                            <li><a href="">Jharkhand TET JHTET Online Form</a></li>
+                            <li><a href="">Uttarakhand TET UTET Online Form 2024</a></li>
+                            <li><a href="">ITBP Safai Karamchari and Other Post Online Form 2024</a></li>
+                              <li><a href="">Railway RRB ALP Change Zone Preferences 2024</a></li>
+                            <li><a href="">IOCL Non Executive Online Form</a></li>
+                            <li><a href="">IBPS Clerk 14th Online Form 2024</a></li>
+                            <li><a href="">ITBP SI Hindi Translator Online Form 2024</a></li>
+                            <li><a href="">JIPMER Group B and C Various Post Online Form 2024</a></li>
+                            <li><a href="">RBI Officers Grade B Online Form</a></li>
+                            <li><a href="">SBI SCO Various Post Online Form</a></li>
+                            <li><a href="">UKPSC APS Online Form 2024</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="full-boxex">
+                <div class="full-box1">
+                    <div class="body-header">Why Should I Consider a Government Job?</div>
+                    <div class="box-body">
+                        <p>In India, a Sarkari Naukri (or an Indian government job) is highly sought-after. It's the ultimate career goal, offering long-term security, good benefits, and friendly co-workers.</p>
+                        <p>friendly co-workers.More than that, an Indian government job offers an opportunity to live a life of purpose</p>
+                        <p>According to the Centre for Monitoring Indian Economy Pvt. Ltd. (CMIE), the unemployment rate in India increased from 6.5% in November 2020 to 7.75% in October 2021. In this fluctuating market, there has been an increase in the demand for the stability and permanence offered by a Sarkari Naukri.</p>
+                        <p>In addition, government jobs in India can be pretty lucrative offering competitive salaries, benefits, and pensions. Some of the highest-paid jobs in the Indian government include the Indian Administrative Services (IAS), Indian Foreign Services (IFS), and Indian Police Services (IPS).</p>
+                    </div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">What Kind of Government Jobs Can I Get?</div>
+                    <div class="box-body">
+                        <p>There are a wide variety of government jobs in India. It depends on your interests, but a job in the Indian government can range from policy-making, public administration, military, law, engineering, and even teaching. Some of the more highly-paid and in-demand positions are discussed below to give you a sense of their requirements and salary expectations.</p><br/>
+                        <p>1. Indian Administrative Services (IAS) and Indian Foreign Services (IFS) Jobs : The role of an IAS officer may include advising the ministers on various policy issues, implementing policies of the government, collecting revenue, and supervising public spending. An IFS officer manages foreign relations in India with more than 160 Indian Diplomatic Missions and International Organizations around the world. The starting monthly salary of an IAS or IFS officer is about INR 56,100.</p><br/>
+                        <p>2. Indian Police Services (IPS) Jobs : A role with the IPS involves safeguarding the public, maintaining law and order, and detecting and preventing crime. The role can be with the various agencies and branches including the Research and Analysis Wing (R&AW), Intelligence Bureau (IB), Central Bureau of Investigation (CBI), and Criminal Investigation Department (CID). To be eligible for a job with IPS, there are additional requirements, including physical standards. Physical eligibility includes minimum height for men and women, minimum chest girth for men and women, restriction on vision impairments including myopia limited to less than -4.00, and hyper myopia not exceeding +4.00. According to Payscale, an entry-level police constable with less than 1-year experience can earn an average total compensation of INR 255,094. This includes tips, bonuses, and overtime pay.</p><br/>
+                        <p>3. Banking Jobs :The banking sector is one of the fastest-growing sectors in India. It's not surprising that jobs in government-approved banks such as the State Bank of India (SBI), Allahabad Bank, HDFC, and ICICI are highly sought after. A job in the banking sector could either be a clerical position such as typists, data entry operators, cashiers, or clerks or a probationary officer (PO) role. As a PO, the candidate will be under probation during the training period and will be hired following the probation based on performance. During the training period, the candidate will be trained in accounting, finance, billing, investment, and revenue collection. A PO role allows opportunities for career growth to middle and senior management based on performance and additional examinations. The starting monthly salary of a PO is about INR 57,000 including allowances.</p></divbr/>
+                    </div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">Sarkari Result 2024 : SarkariResult.Com</div>
+                    <div class="box-body"><p>
+                        India has witnessed a high demand for Government jobs for many decades. People prefer Government jobs as their career option considering the wide variety of benefits that are associated with these. ‘Sarkari Naukri’ is a dream for millions of people across the nation, and only a few are lucky to land up with such jobs. People tend to take pride in having a Sarkari or Government job.</p><br/><p></p>
+
+Government jobs hold the kind of authority not found in private jobs. These also offer job security for a lifetime, and hence a lot of youth prefer them. Getting into a Government job requires a person to go through multiple levels of tests. These include a written examination, interview and sometimes even physical examination. These are competitive exams, and millions of people appear for these exams to get into a coveted Government job.</p><br/>
+                    </div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">How Competitive Is the Government Job Market?</div>
+                    <div class="box-body">
+                        There is no doubt that finding an Indian government job is highly competitive. The Times of India said it best when they said that the numbers are staggering:
+<ul><li>
+2.3 million applications for 368 peon positions in Uttar Pradesh.</li>
+<li>2.5 million applications for 6,000 positions in Bengal</li>
+<li>200,000 applications for 1,137 positions as police constables in Maharashtra.</li>
+<li>When the Ministry of Railways started recruiting for around 63,000 positions, they received more than 19 million (1.9 crores) job applications.</li>
+</ul><br/><p>
+With COVID-19, the competition has only increased because of the drop in the number of people hired by the government. The central government hired 119,000 people in 2021 which is a reduction in almost 32,000 jobs. There was a similar drop in 2021 of almost 107,000 people hired by the state government. This creates an extremely competitive environment. Getting up-to-date information on the latest jobs on  Sarkari Result and understanding eligibility requirements can help you stand out from the crowd. These are of course some of the most coveted roles in India and are extremely competitive.</p><br/>
+                    </div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">Sarkari Exam for Government Jobs</div>
+                    <div class="box-body"><p>Sarkari or Government exams are conducted for various positions in the state as well as central Government. There are various groups in Government jobs and candidates can apply for either of these groups, depending on their qualifications. Group A mostly comprises of managerial roles and are considered to be the highest level of jobs. Group B is for Gazetted officers. To clear the Group B exam, one has to make the UPSC exam. Most seats under Group B are filled via promotions, so only limited seats are left for entrance via exam. Group C and D are for public servants who have non-supervisory roles.</div></div>
+                
+                <div class="full-box1">
+                    <div class="body-header">Sarkari Result 2023 - 2024</div>
+                    <div class="box-body"><p>
+                        All information about Sarkari result and  Rojgar results can be found on sarkariresult.com. It is now easy to log into sarkariresult.com and find out everything that you would want to know about most of the Government exams and  Sarkari Result.<p>
+                    </div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">Sarkari Results for State Level Exams</div>
+                    <div class="box-body"><p>state Governments conduct various exams, and the Sarkari Result Info for all these exams can be found online. Sarkari Results in Bihar for all government job exams conducted by the state of Bihar. Similarly, Sarkari info for the Sarkari Result in Jharkhand can be searched online for all the exams conducted for the state of Jharkhand. UP Sarkari result is one of the most common online searches in India, considering the high demand for Government jobs in the state of U.P.</p></div>
+                </div>
+                <div class="full-box1">
+                    <div class="body-header">Sarkari Naukri for Government Jobs</div>
+                    <div class="box-body"><p>
+                        Sarkariresult.com Sarkari Result is a platform where thousands of Sarkari Naukri online forms are available, as soon as a new Sarkari Naukri form comes out in Uttar Pradesh, Bihar, Madhya Pradesh, Delhi, Uttarakhand and other states. The information is available on Sarkari Result. Sarkari Naukri 10+2 Form, Sarkari Naukri Graduate Passed Jobs, Sarkari Naukri Post Graduate Jobs, Sarkari Naukri Medical Jobs, Sarkari Naukri in SSC, UPSC in Sarkari Naukri. And young people can see the information about Sarkari Naukri form organized by many other organizations with a single click on Sarkariresult.com.</p>
+                    </div>
+                </div>
+</div>
+<div class="footer">
+    <div class="footer-div">
+<div class="f-header">Quick Links</div>
+<div class="f-bottom">
+    <ul><li>Result @X</li>
+        <li>Sarkari Result @Telegram</li>
+            <li> Sarkari Result @WhatsApp</li>
+                <li>Sarkari Result @Instagram</li>
+                    <li>Sarkari Result @Threads</li>
+                        <li>Sarkari Result @Facebook</li>
+                            <li>Sarkari Result @Facebook</li>
+                                <li>   Sarkari Result @Facebook</li>
+                                    <li>Sarkari Result @Linkedin</li>
+                                        <li>Sarkari Result @Youtube</li>
+                                            <li>All Board Exams</li>
+                                                <li>Sarkari Result Contact Us</li>
+                                                    <li>Privacy Policy</li></ul>
+</div>
+
+    </div>
+    <div class="footer-div">
+        <div class="f-header">Apps</div>
+<div class="f-bottom">
+    <ul><li>Android App</li>
+<li>Apple IOS App</li></u></div>
+    </div>
+    <div class="footer-div">
+        <div class="f-header">More</div>
+<div class="f-bottom">
+    <u>
+        <li>UPSC</li>
+        <li>BPSC</li>
+        <li>RPSC</li>
+        <li>UP Schlorship</li>
+        <li>UPPSC</li>
+    </u>
+</div>
+    </div>
+    <div class="footer-div">
+        <div class="f-header"></div>
+<div class="f-bottom">
+    <u>
+        <li>UPSC</li>
+        <li>BPSC</li>
+        <li>RPSC</li>
+        <li>UP Schlorship</li>
+        <li>UPPSC</li>
+    </u>
+</div>
+    </div>
+</div>
+            
+    </div>
+</body>
+</html>

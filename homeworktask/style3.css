@@ -1,0 +1,29 @@
+#a{
+font-size:50px;
+color:red;
+background-color:pink;
+border:10px groove blue;
+text-align:center;
+text-transform:capitalize;
+border-radius:60px 10px 60px 10px;
+}
+#b{
+font-size:50px;
+color:red;
+background-color:yellow;
+border:10px solid purple;
+text-align:center;
+text-transform:lowercase;
+border-radius:100px;
+}
+p{
+color:red;
+background-color:pink;
+border:10px solid purple;
+text-align:center;
+text-transform:uppercase;
+border-radius:0px 6 0px 60px 0px;
+font-size:20px;
+word-spacing:2px
+text-align:justify;
+}

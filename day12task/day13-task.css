@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    min-height: 800px;
+    width:1200px;
+    margin: 0px auto;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: #fefefc;
+    display: flex;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: #272a39;
+}
+.mid{
+    height: 500px;
+    width: 100%;
+    background: url("pp.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+.logo{
+    height: 100%;
+    width: 25%;
+}
+.nav{
+    height: 100%;
+    width: 75%;
+}
+.left{
+    height: 100%;
+    width:80% ;
+    float: left;
+}
+.right{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.left ul{
+    list-style: none;
+}
+.left ul a{
+    text-decoration: none;
+}
+.left ul li{
+    height: 80px;
+    width: 14%;
+    color: navy;
+    float: left;
+    /* background-color: red; */
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    line-height: 80px;
+    /* transform: translateY(4px); */
+    margin-left: 2px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.left ul li:hover{
+    background-color:#19ba99 ;
+}
+.mid-left{
+    height: 500px;
+    width: 600px;
+    float: left;
+}
+.mid-right{
+    height: 500px;
+    width: 600px;
+    float: left;
+    background: rgba(255,255,255,.3);
+    padding-right: 50px;
+    text-align: right;
+}
+.uu{
+    width: 200px;
+    color: rgb(45, 234, 45);
+    border: 1px solid rgb(38, 232, 38);
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.mm{
+     font-size:40px ;
+     text-transform: capitalize;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.mid-right a{
+    text-decoration: none;
+}
+.hh{
+    height:40px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(44, 225, 44);
+    font:20px ;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.sec1,.sec2,
+.sec3,.sec4{
+    height: 200px;
+    width: 25%;
+    float: left;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.footer p img{
+    height: 60px;
+    width: 80px;
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.n{
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

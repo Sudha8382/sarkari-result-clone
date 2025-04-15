@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .outer{
+            background: url("bike.webp");
+            background-size: cover;
+            height:600px ;
+            width: 1200px;
+            margin: 50px auto;
+            animation-name:abc;
+            animation-duration:2s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate-reverse;
+        }
+        .inner{
+            height: 600px;
+            width: 1200px;
+            background-color:rgba(233, 11, 11, 0.5);
+        }
+        .left{
+            height: 600px;
+            width: 600px;
+            float: left;
+        }
+        .right{
+            height: 600px;
+            width: 600px;
+            float: left;
+        }
+        .left-inner{
+            height: 400px;
+            width: 500px;
+            background-color: rgba(255,255,255,.8);
+            border-radius: 10px ;
+            margin: 100px 50px;
+            padding: 50px 75px;
+            box-sizing: border-box;
+
+        }
+        .right-inner{
+            height: 400px;
+            width: 500px;
+            background-color: transparent;
+            border-radius: 10px ;
+            margin: 100px 50px;
+            text-align: center;
+            box-sizing: border-box;
+            font-size: 40PX;
+            padding-top: 50px;color: white;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .a{
+            height: 30px;
+            width: 100%;
+            font-size:20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 20px;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            border: none;
+            margin-bottom: 20px;
+            line-height: 30px;
+            background-color: rgba(255,255,255,.5);
+            border-radius: 10px;
+        }
+        #b{
+            height: 45px;
+            width: 100%;
+            font-size:20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 20px;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            border: none;
+            line-height: 45px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background-color: rgba(255,255,255,.5);
+
+        }
+        #c{
+            height: 30px;
+            width: 100%;
+            font-size:20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 20px;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            border: none;
+            margin-bottom: 20px;
+            line-height: 30px;
+            color: white;
+            background-color: blueviolet;
+            border-radius: 10px;
+        }
+        .left-inner:hover{
+            background-color: rgba(0,100,0,.5);
+        }
+        .p{
+            font-size: 25px;
+        }
+        @keyframes abc
+        {
+            0%{
+                background: url("aa.jpg");
+                background-size: cover;
+                background-repeat:no-repeat;
+            }
+           45% {
+            background: url("ccc.jpg");
+            background-size: cover;
+            background-repeat:no-repeat;
+            }
+            60%{
+                background: url("cc.jpg");
+                background-size: cover;
+                background-repeat:no-repeat;
+            }
+            80%{
+                background: url("bb.jpg");
+                background-size: cover;
+                background-repeat:no-repeat;
+            }
+            100%{
+                background: url("horse.jpeg");
+                background-size: cover;
+                background-repeat:no-repeat;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="left">
+                <div class="left-inner">
+                    <input type="text"  class="a"  placeholder="enter your name" name="name"><br/>
+                    <input type="gmail" class="a"  placeholder="gmail"><br/>
+                    <input type="number" class="a" placeholder="user id"><br/>
+                    <input type="password"  class="a" placeholder="password"><br/>                    
+                    <textarea name="message" placeholder="messaage"  id="b"></textarea><br/>
+                    <input type="submit"name="submit" value="submit" id="c">
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-inner"><p</p>
+                    <b style=" color:blueviolet; font-weight:bold;">TECHPILE </b> TECHNOLOGY PRIVATE LIMITED</p>
+                    <p style="box-sizing:border-box;font-family: 'Times New Roman', Times, serif;font-size:25px; margin-top: 50px; font-weight: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit quasi praesentium vero voluptates delectus quam vel et recusandae saepe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

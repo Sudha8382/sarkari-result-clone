@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* *:before,*:after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.container1,.container3{
+
+    height: 40%;
+    width: 100%;
+    display: flex;
+
+}
+.container2{
+    height: 20%;
+    width: 100%;
+  display: flex;
+}
+.row1-col1,
+.row1-col3,
+.row3-col1,
+.row3-col3{
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    display: flex;
+    /*border: 1px solid black;
+    box-sizing: border-box;*/
+
+}
+.row1-col2,
+.row3-col2{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.row2-col1,
+.row2-col3{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+.row2-col2{
+    height: 20%;
+    width: 100%;
+    
+}
+/*color*/
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.white{
+    background-color: white;
+}
+.row1-col1-child,
+.row1-col3-child,
+.row3-col1-child,
+.row3-col3-child{
+    height: 70%;
+    width: 70%;
+    float: left;
+}
+    </style>
+</head>
+<body>
+  <div class="container">
+<div class="container1">
+    <div class="row1-col1 green">
+        <div class="row1-col1-child white"></div>
+
+    </div><!--green-->
+    <div class="row1-col2"></div><!--path-->
+    <div class="row1-col3 yellow">
+    <div class="row1-col3-child white"></div>
+    </div><!--yellow-->
+</div>
+<div class="container2">
+    <div class="row2-col1 "></div><!--path-->
+    <div class="row2-col2"></div><!--home-->
+    <div class="row2-col3"></div><!--path-->
+</div>
+<div class="container3">
+    <div class="row3-col1 red">
+        <div class="row3-col1-child white"></div>
+    </div><!--red-->
+    <div class="row3-col2"></div><!--path-->
+    <div class="row3-col3 blue">
+        <div class="row3-col3-child white"></div>
+    </div><!--blue-->
+</div>
+
+  </div>  
+</body>
+</html>

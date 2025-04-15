@@ -1,0 +1,16 @@
+p{
+color:red;
+background-color:pink;
+text-align:center;
+text-transform:capitalize;
+border-radius:0px 6 0px 60px 0px;
+font-size:20px;
+word-spacing:2px
+text-align:justify;
+}
+img{
+	height:100px;
+	width:100px;
+	border-radius:30px;
+	float:right;
+}

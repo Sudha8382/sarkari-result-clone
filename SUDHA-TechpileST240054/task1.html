@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+            }
+.container{
+    height: 400px;
+    width: 1000px;
+    background-color: white;
+    margin: 200px auto;
+}
+.left{
+    height: 360px;
+    width: 460px;
+    float: left;
+    padding: 20px;
+}
+.right{
+    height: 400px;
+    width: 500px;
+    float: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    text-transform: capitalize;
+    
+}
+.top{
+    height: 150px;
+    width: 500px;
+}
+.bottom{
+    height: 250px;
+    width: 500px;
+}
+.top2{
+    height: 100px;
+    width: 500px;
+}
+.top1
+{
+    height: 50px;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.top-left{
+    height: 100px;
+    width: 250px;
+    float: left;
+}
+.top-right
+{
+    height: 100px;
+    width: 250px;
+    float: left;
+}
+.a{
+    border: 1px solid gray;
+    height: 30px;
+}
+.b{
+    border: 1px solid red;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <img src="lotus.jpg" alt="path error" height="100%" width="100%">
+            </div>
+            <div class="right">
+                <div class="top">
+                    <div class="top1">
+                    Add your feedback</div><div class="top2">
+                    <div class="top-left">
+                        your name:<br/>
+                        <input class="a"   type="text" placeholder="enter your name">
+                    </div>
+                    <div class="top-right">
+                        your's image:<br/>
+                        <input  class="a" type="file" placeholder="choose your file" style="width: 200px;">
+                    </div>
+                </div>
+                </div>
+                <div class="bottom">
+                    your form:<br/>
+                    <input style="width: 450px;"  class="a" type="text" placeholder="Enter your institute/collage name"><br/><br/>
+                    your feedback:<br/>
+                    <textarea  rows="3" cols="60"></textarea>
+                    <input  type="submit"value="Send feedback" class="b">
+                </div>
+            </div>             
+        </div>
+    </body>
+</html>

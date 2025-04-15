@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ludo game</title>
+    <style>
+        .container{
+            height: 750px;
+            width: 750px;
+            background-color: aliceblue;
+            margin: 50px auto;
+        }
+        .container1,
+        .container3{
+            height: 300px;
+            width: 750px;
+        }
+        .container2{
+            height: 150px;
+            width: 750px;
+        }
+        .row1-col1,
+        .row1-col3,
+        .row3-col1,
+        .row3-col3{
+            height: 300px;
+            width: 300px;
+            float: left;
+        }
+        .row2-col1,
+        .row2-col3{
+            height: 150px;
+            width: 300px;
+            float: left;
+        }
+        .row1-col2,
+        .row3-col2{
+            height: 300px;
+            width: 150px;
+            float: left;
+
+        }
+        .row2-col2{
+            height: 150px;
+            width: 150px;
+            float: left;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .red{
+           border:50px solid red ;
+           box-sizing: border-box;
+        }
+        .blue{
+            border: 50px solid blue;
+            box-sizing: border-box;
+        }
+        .yellow{
+            border: 50px solid yellow;
+            box-sizing: border-box;
+        }
+        .green{
+        box-sizing: border-box;
+        border: 50px solid green;
+        }
+        .box1,.box2{
+        height: 100px;
+        width: 200px;
+       }
+       .x{
+        height: 70px;
+        width: 70px;
+        margin: 15px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        float: left;
+        border: 1px solid black;
+
+       }
+       .x-red{
+        background-color: red;
+       }
+       .x-green{
+        background-color: green;
+       }
+       .x-yellow{
+        background-color: yellow;
+       }
+       .x-blue{
+        background-color: blue;
+       }
+       .b{
+        height: 300px;
+        width: 50px;
+        float: left;
+       }
+.box21{
+    height: 0px;
+    width: 0px;
+    border-top: 75px solid green;
+    border-left: 75px solid red;
+     border-right:75px solid yellow;
+    border-bottom:75px solid blue;
+     box-sizing: border-box;
+}
+.b1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.c{
+    height: 50px;
+    width: 300px;
+}
+.c1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <div class="row1-col1 red">
+                <div class="box1">
+                    <div class="x x-red"></div>
+                    <div class="x x-red"></div>
+                </div>
+                <div class="box2">
+            <div class="x x-red"></div>
+            <div class="x x-red"></div>
+                </div>
+            </div><!--red-->
+            <div class="row1-col2">
+                <div class="b">
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                </div>
+                <div class="b">
+                    <div class="b1"></div>
+                    <div class="b1"style="background-color:green"></div>
+                    <div class="b1"style="background-color:green"></div>
+                    <div class="b1"style="background-color:green"></div>
+                    <div class="b1"style="background-color:green"></div>
+                    <div class="b1"style="background-color:green"></div>
+                </div>
+                <div class="b">
+                    <div class="b1"></div>
+                    <div class="b1"style="background-color:green"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                </div>
+
+            </div>
+            <div class="row1-col3 green">
+                <div class="box1">
+                    <div class="x x-green "></div>
+                    <div class="x x-green"></div>
+                </div>
+                <div class="box2">
+            <div class="x x-green"></div>
+            <div class="x x-green"></div>
+                </div>
+            </div><!--green-->
+        </div>
+        <div class="container2">
+            <div class="row2-col1">
+                <div class="c">
+                    <div class="c1"></div>
+                    <div class="c1 x-red"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                </div>
+                <div class="c">
+                    <div class="c1"></div>
+                    <div class="c1 x-red"></div>
+                    <div class="c1 x-red"></div>
+                    <div class="c1 x-red"></div>
+                    <div class="c1 x-red"></div>
+                    <div class="c1 x-red"></div>
+                </div>
+                <div class="c">
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                </div>
+            </div>
+            <div class="row2-col2">
+                <div class="box21"></div>
+
+            </div>
+            <div class="row2-col3">
+                <div class="c">
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                </div>
+                <div class="c">
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1"></div>
+                </div>
+                <div class="c">
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1"></div>
+                    <div class="c1 x-yellow"></div>
+                    <div class="c1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="row3-col1 blue">
+                <div class="box1">
+                    <div class="x x-blue"></div>
+                    <div class="x x-blue"></div>
+                </div>
+                <div class="box2">
+            <div class="x x-blue"></div>
+            <div class="x x-blue"></div>
+                </div>
+            </div><!--blue-->
+            <div class="row3-col2">
+                <div class="b">
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"style="background-color: blue;"></div>
+                    <div class="b1"></div>
+                </div>
+                <div class="b">
+                    <div class="b1" style="background-color: blue;"></div>
+                    <div class="b1" style="background-color: blue;"></div>
+                    <div class="b1"style="background-color: blue;"></div>
+                    <div class="b1"style="background-color: blue;"></div>
+                    <div class="b1"style="background-color: blue;"></div>
+                    <div class="b1"></div>
+                </div>
+                <div class="b">
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1"></div>
+                    <div class="b1></div>
+                    <div class="b1"></div>
+                </div>
+
+            </div>
+            <div class="row3-col3 yellow">
+                <div class="box1">
+                    <div class="x x-yellow"></div>
+                    <div class="x x-yellow"></div>
+                </div>
+                <div class="box2">
+            <div class="x x-yellow"></div>
+            <div class="x x-yellow"></div>
+                </div>
+            </div><!--yellow-->
+        </div>
+    </div>
+</body>
+</html>

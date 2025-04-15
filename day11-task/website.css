@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background:#ffffff;
+}
+#container{
+	min-height:2000px;
+	width:980px;
+	background:pink;
+	margin:0px auto;
+}
+#header{
+	height:250px;
+	width:980px;
+}
+.top-header{
+	min-height:200px;
+	width:980px;
+	background:#ab183d;
+}
+.navigation-bar{
+	height:50px;
+	background:#000000;
+	width:980px;
+}
+.logo{
+	height:200px;
+	width:300px;
+float:left;	
+}
+img{
+	height:150px;
+	width:150px;
+	margin-top:25px;
+	margin-left:50px;
+}
+.sarkari-result{
+	height:200px;
+	width:680px;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:40px;
+	text-align:center;
+	line-height:200px;
+	font-WEIGHT:bold;
+	float:left;
+}
+.navigation-bar{
+	height:50px;
+	width:980px;
+}
+ nav ul a{
+	text-decoration:none;
+}
+ nav ul li{
+	height:50px;
+	width:120px;
+	font-weight:bold;
+	font-size:14px;
+	border-left:1px solid white;
+	float:left;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	text-transform:capitalize;
+}
+nav ul{
+list-style-type:none;
+}
