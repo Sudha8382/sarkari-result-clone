@@ -1,0 +1,30 @@
+#tr1{
+	background-color:black;
+	color:white;
+	font-size:60px;
+	text-align:center;
+	border:10px double red;
+	text-transform:capitalize;
+}
+#tr2{
+	background-color:green;
+	color:yellow;
+	font-size:60px;
+	text-align:center;
+	border:10px double red;
+}
+#tr3{
+	background-color:pink;
+	color:black;
+	font-size:60px;
+	text-align:center;
+	border:10px double red;
+	
+}
+#tr4{
+	background-color:yellow;
+	color:red;
+	font-size:60px;
+	text-align:center;
+	border:10px double red;
+}

@@ -1,0 +1,14 @@
+Web  app -jquerry,react,angular vue,
+Mobile app -react-native
+Electron js
+DATA_TYPE:
+=====================================================================================STRI1.string =>”HELLO WORLD”
+2.Boolean :true 1 / false 0
+3.Array :[1,”amit”,34.8]
+4.Object =>{
+Name:”techpile”,
+Branch:”cs”
+}
+5.Undefined(value is not init)
+6.Null
+Var a=””      //=>empty

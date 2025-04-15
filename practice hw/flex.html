@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box in css</title>
+    <style>
+#fcontainer{
+    height: 20  item10px;
+    width: 900px;
+    border: 5px solid black;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+}
+.fitem{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.item1{
+    order: 1;
+    flex-grow: 2;
+    align-self: center;
+}
+.item2{
+    order: 4;
+    flex-grow:3;
+}
+    </style>
+</head>
+<body>
+    <div id="fcontainer">
+        <div class="fitem  item1">1</div>
+        <div class="fitem  item2">2</div>
+        <div class="fitem  item3">3</div>
+        <div class="fitem  item4">4</div>
+        <div class="fitem  item5">5</div>
+    </div>
+</body>
+</html>

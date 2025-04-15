@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+:root{
+    /*background color*/
+    --bg-white:white;
+    /*text-color*/
+    --primary-text:#06193a;
+    --secondary-color:#2c6b0f;
+    --light-color:#e8f7e1;
+    --dark-color:#01272a;
+   --text-white:#ffffff;
+    --text-gray:#dfe2e6;
+    --anchor-color:#0076f9;
+
+/*font family*/
+--primary-font:'barlow Condensed',sans-serif;
+--secondary-font:'Robot',sans-serif;
+
+}
+body,
+html{
+    color: var(--primary-text);
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+
+}
+h1{
+    font-size: 9rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--primary-text);
+}
+h2{
+    font-size: 9rem;
+    font-size: 4.7rem;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: capitalize;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+
+}
+h3{
+    color: var(--text-white);
+    font-size: 3.1 rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: (var(--primary-text));
+}
+h5{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1rem;
+    color: var(--secondary-text);
+}
+p{
+    font-size: 1.6rem;
+    font-weight: ;
+}

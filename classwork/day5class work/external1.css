@@ -1,0 +1,10 @@
+h1{
+	background-color:yellow;
+	font-size:100px;
+	color:blue;
+	border:20px double red;
+	border-radius:50px;
+	text-transform:lowercase;
+	text-align:right;
+	
+}
